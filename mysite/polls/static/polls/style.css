@@ -1,0 +1,13 @@
+/*
+* @Author: chenym
+* @Date:   2019-12-19 09:20:27
+* @Last Modified by:   chenym
+* @Last Modified time: 2019-12-19 09:32:40
+*/
+li a {
+    color: green;
+}
+
+body {
+    background: white url("images/background.gif") no-repeat;
+}
