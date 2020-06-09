@@ -112,8 +112,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
 # “python/site-packages/django/conf/locale/”中的语言名称
-#LANGUAGE_CODE = 'zh_Hans'
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh_Hans'
+#LANGUAGE_CODE = 'en-us'
 
 
 # 另外此项设置如果保持 UTC 有可能导致 Django 时间和本地时间不同的情况。
@@ -124,7 +124,7 @@ USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = False
+USE_TZ = True
 
 
 LANGUAGES = (                # 系统支持的语言种类，Django LocaleMiddleware 根据请求信息会自动选择
